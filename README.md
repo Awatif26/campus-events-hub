@@ -1,2 +1,2 @@
 # campus-events-hub
-IT361 Projetc
+IT361 Project
