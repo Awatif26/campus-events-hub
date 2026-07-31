@@ -1,3 +1,5 @@
+
+/*----------------Awatif(Leader)' Part --------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -87,7 +89,7 @@ footer p {
     margin: 0;
 }
 
-/*------After Mid Progress Report ------*/
+/*----------------Wejdan' Part --------------------*/
 
 .events-main {
     display: grid;
@@ -138,8 +140,6 @@ footer p {
     }
 }
 
-
-/* ABOUT-PAGE*/
 
 .about-section,
 .team-section,
@@ -197,10 +197,12 @@ button {
     padding: 10px 18px;
     border-radius: 6px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #4a90c2;
+    background-color: rgb(212, 248, 122);
+    color: black;
 }
 
 .error-message {
@@ -217,7 +219,7 @@ button:hover {
 }
 
 
-/*INDEX-PAGE*/
+/*----------------------------Aseel' Part ------------------------*/
 .main-index h1{
     font-size: 28px;
 }
@@ -239,7 +241,8 @@ button:hover {
     background-color: #1f4e79;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
+    font-size: 20px;
 }
 
 .view-events-btn:hover {
@@ -247,8 +250,6 @@ button:hover {
     color:black;
 }
 
-
-/*EVENT-DETAILS*/
 
 .event-details{
     max-width:900px;
@@ -294,4 +295,74 @@ button:hover {
 .register-btn:hover{
     background-color: rgb(212, 248, 122);
     color: black;
+}
+
+
+/*----------------------------Shahad' Part------------------------ */
+
+form{
+    max-width:600px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+
+.form-register{
+    margin-bottom:18px;
+}
+
+.form-register label{
+    display:block;
+    margin-bottom:6px;
+    text-align: left;
+}
+
+.form-register input,
+.form-register select{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+    background-color: rgba(247, 243, 243, 0.678);
+}
+
+.error-message{
+    display:block;
+    color:red;
+    font-size:14px;
+    margin-top:5px;
+}
+
+.success-message{
+    color:green;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    background:white;
+}
+
+th,
+td{
+    border:1px solid #ddd;
+    padding:12px;
+    color: rgb(88, 112, 27);;
+    text-align:center;
+}
+
+th{
+    background:#1f4e79;
+    color:white;
+}
+
+tr:nth-child(even){
+    background:#f4f6f8;
 }
