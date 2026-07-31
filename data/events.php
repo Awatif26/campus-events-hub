@@ -14,7 +14,7 @@ $events = [
 
     [
         "id" => 2,
-        "title" => "Artificial Intelligence Workshop",
+        "title" => "Artificial Intelligence Basics Workshop",
         "date" => "2026-08-9",
         "time" => "12:00 PM",
         "location" => "Department B",
