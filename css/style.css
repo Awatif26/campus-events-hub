@@ -1,5 +1,5 @@
 
-/*----------------Awatif(Leader)' Part --------------------*/
+/*------------------ Awatif(Leader)' Part ----------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -89,7 +89,7 @@ footer p {
     margin: 0;
 }
 
-/*----------------Wejdan' Part --------------------*/
+/*------------------------------------ Wejdan' Part -------------------------------*/
 
 .events-main {
     display: grid;
@@ -139,7 +139,6 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
-
 
 .about-section,
 .team-section,
@@ -219,7 +218,7 @@ button:hover {
 }
 
 
-/*----------------------------Aseel' Part ------------------------*/
+/*---------------------------- Aseel' Part ------------------------*/
 .main-index h1{
     font-size: 28px;
 }
@@ -249,7 +248,6 @@ button:hover {
     background-color: rgb(212, 248, 122);
     color:black;
 }
-
 
 .event-details{
     max-width:900px;
@@ -298,7 +296,7 @@ button:hover {
 }
 
 
-/*----------------------------Shahad' Part------------------------ */
+/*---------------------------- Shahad' Part------------------------ */
 
 form{
     max-width:600px;
